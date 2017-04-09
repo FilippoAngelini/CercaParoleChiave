@@ -3,11 +3,11 @@ package CercaParoleChiave.model;
 public class ParolaChiave {
 	
 	private String parola;
-	private int numeroArgomento;
+	private String argomenti;
 	
-	public ParolaChiave(String parola, int numeroArgomento) {
+	public ParolaChiave(String parola, String argomenti) {
 		this.parola = parola;
-		this.numeroArgomento = numeroArgomento;
+		this.argomenti = argomenti;
 	}
 
 	/**
@@ -27,15 +27,15 @@ public class ParolaChiave {
 	/**
 	 * @return the numeroArgomento
 	 */
-	public int getNumeroArgomento() {
-		return numeroArgomento;
+	public String getArgomenti() {
+		return argomenti;
 	}
 
 	/**
 	 * @param numeroArgomento the numeroArgomento to set
 	 */
-	public void setNumeroArgomento(int numeroArgomento) {
-		this.numeroArgomento = numeroArgomento;
+	public void setArgomenti(String argomenti) {
+		this.argomenti = argomenti;
 	}
 
 	/* (non-Javadoc)
@@ -48,6 +48,11 @@ public class ParolaChiave {
 		result = prime * result + ((parola == null) ? 0 : parola.hashCode());
 		return result;
 	}
+
+	/**
+	 * @param argomenti the argomenti to set
+	 */
+	
 
 	/* (non-Javadoc)
 	 * @see java.lang.Object#equals(java.lang.Object)
@@ -74,7 +79,7 @@ public class ParolaChiave {
 	 */
 	@Override
 	public String toString() {
-		return "Parola chiave: " + parola + ", Argomento= " + numeroArgomento + "\n";
+		return "Parola chiave: " + parola + ", Argomenti= " + argomenti + "\n";
 	}
 	
 	

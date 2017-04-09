@@ -1,0 +1,3 @@
+fabbricazione;1
+cad;1,2
+cam;1,2
