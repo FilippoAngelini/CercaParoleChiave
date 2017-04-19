@@ -136,7 +136,7 @@ erp;5
 web;6
 cognitiv;1
 conness;1,6
-wearable;1
+wearable;3
 rfid;1,6
 antenna;1,7,6
 nfc;1,6
@@ -154,3 +154,5 @@ elettrotecnica;1
 segnale;1,6
 signal;1,6
 protocol;6
+fibra;1,6
+fiber;1,6
