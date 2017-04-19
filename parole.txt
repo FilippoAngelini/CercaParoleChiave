@@ -151,7 +151,7 @@ electronic;1
 dinamic;1
 dynamic;1
 elettrotecnica;1
-segnale;1,6
+segnal;1,6
 signal;1,6
 protocol;6
 fibra;1,6
