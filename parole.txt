@@ -146,6 +146,7 @@ system;1,5,8
 informatica;1,4,6,7,8,9
 gestione;5
 controllo;1,5
+control;1;5
 elettronic;1
 electronic;1
 dinamic;1
@@ -156,3 +157,5 @@ signal;1,6
 protocol;6
 fibra;1,6
 fiber;1,6
+transduc;1
+trasduttor;1
